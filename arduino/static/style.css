@@ -1,0 +1,32 @@
+body {
+    transition: background-color 0.5s ease;
+  }
+  
+  .bg-sunny {
+    background: linear-gradient(to bottom right, #fefcea, #f1da36);
+  }
+  
+  .bg-rainy {
+    background: linear-gradient(to bottom right, #b2d0ff, #608dff);
+  }
+  
+  .bg-normal {
+    background: #f8f9fa;
+  }
+  
+  .reading-card {
+    min-height: 180px;
+    text-align: center;
+  }
+  
+  .lottie-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+  
+  .alert-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+  }
+  
