@@ -1,0 +1,9 @@
+to run my conda enviroment in another pc I need to run this in the terminal: 
+
+conda env create -f environment.yml
+
+in case I wanna run it without conda I should type: 
+python -m venv env
+source env\Scripts\activate 
+pip install -r myPackages.txt
+ 
